@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      .first {
+        background: red
+      }
+      #spanned{
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The h1 and p are in one div tag .I have set the style for h1 and p tag together with the div. -->
+    <div class="first">
+      <h1>Hello</h1>
+      <p>Lorem ipsum dolor sit <span id="spanned">amet, consectetur adipisicing elit,</span> sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+    <!-- this is othe div tag -->
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, <span id="spanned">sed do eiusmod tempor</span> incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </body>
+</html>
